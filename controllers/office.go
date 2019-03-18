@@ -2,8 +2,8 @@ package controllers
 
 
 import (
-	"github.com/linzon/beego_blog/models"
-	"github.com/linzon/beego_blog/util"
+	//"github.com/linzon/beego_blog/models"
+	//"github.com/linzon/beego_blog/util"
 )
 
 type OfficeController struct {
@@ -13,7 +13,7 @@ type OfficeController struct {
 /**
 首页
 */
-func (c *BlogController) Index()  {
-	c.list()
+func (c *OfficeController) Index()  {
+	//c.list()
 	c.TplName= c.controllerName+"/index.html"
 }
