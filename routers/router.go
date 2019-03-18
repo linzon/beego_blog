@@ -15,6 +15,7 @@ func init() {
 	beego.Router("/timeline", &controllers.BlogController{}, "*:Timeline")
 	beego.Router("/resource", &controllers.BlogController{}, "*:Resource")
 	beego.Router("/comment", &controllers.BlogController{}, "post:Comment")
+	beego.Router("/", &controllers.OfficeController{}, "*:Index")
 
 	beego.AutoRouter(&controllers.AdminController{})
 }
