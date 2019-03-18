@@ -2,8 +2,8 @@ package controllers
 
 
 import (
-	"github.com/Echosong/beego_blog/models"
-	"github.com/Echosong/beego_blog/util"
+	"github.com/linzon/beego_blog/models"
+	"github.com/linzon/beego_blog/util"
 )
 
 type OfficeController struct {
